@@ -1,7 +1,7 @@
 {
   "name": "tareas-clase-10",
   "version": "1.0.0",
-  "description": "juego simon dice",
+  "description": "juego memotest",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

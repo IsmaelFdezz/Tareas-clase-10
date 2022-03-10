@@ -1,0 +1,45 @@
+.col {
+    border: 2px solid black;
+    height: 200px;
+}
+
+.carta {
+    height: 100%;
+    opacity: 0;
+    transition: opacity ease 0.3s;
+}
+
+#ganaste {
+    font-size: 25px;
+    display: none;
+}
+
+
+#tablero {
+    margin-top: 20px;
+    border: 2px solid black
+}
+
+.rojo {
+    background-color: red;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.verde {
+    background-color: green;
+}
+
+.amarillo {
+    background-color: yellow;
+}
+
+.naranja {
+    background-color: orange;
+}
+
+.violeta {
+    background-color: purple;
+}
