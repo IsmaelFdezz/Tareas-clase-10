@@ -2,6 +2,7 @@ let $intentos = document.querySelector("#intentos")
 let primerCarta = null
 let contadorCartas = 12
 let cronometro
+
 const $cartas = document.querySelectorAll(".carta")
 const $datos = document.querySelectorAll("#datos")
 
