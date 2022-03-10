@@ -11,6 +11,7 @@ function organizarJuego() {
     const colores = ["rojo", "azul", "verde", "amarillo", "naranja", "violeta", "rojo", "azul", "verde", "amarillo", "naranja", "violeta"]
     darColorCarta($cartas, colores)
     manejarEvento()
+    carga()
 }
 
 function darColorCarta($cartas, colores) {
@@ -33,7 +34,6 @@ function manejarEvento() {
 
 function manejarClick(cartaActual) {
     mostrarCarta(cartaActual)
-    carga()
 
     if (primerCarta === null) {
         primerCarta = cartaActual
